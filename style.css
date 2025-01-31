@@ -83,3 +83,14 @@ footer {
 footer > * {
   grid-column: -2 / -1;
 }
+
+@media (min-width: 30em) { 
+    #leistungen {
+      display: grid;
+      grid-template-columns: 1fr 12em;
+    }
+  
+    #leistungen h2 {
+      grid-column: 1 / -1;
+    }
+  }
