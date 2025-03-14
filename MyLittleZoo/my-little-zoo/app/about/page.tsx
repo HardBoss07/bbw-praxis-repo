@@ -5,13 +5,13 @@ export default function Home() {
     return (
         <>
             <header>
-                <NavBar currentPage={0}/>
+                <NavBar currentPage={3}/>
             </header>
             <main>
 
             </main>
             <footer>
-                <Footer />
+                <Footer/>
             </footer>
         </>
     );
