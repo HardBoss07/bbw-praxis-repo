@@ -2,7 +2,7 @@ interface NavBarProps {
     currentPage: number;
 }
 
-export default function NavBar({ currentPage }: NavBarProps) {
+export default function NavBarComponment({ currentPage }: NavBarProps) {
     const navItems = ["Home", "Animals", "Contact", "About"];
 
     return (

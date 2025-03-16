@@ -1,17 +1,17 @@
-import NavBar from "@/app/components/NavBarComponent";
-import Footer from "@/app/components/FooterComponent";
+import NavBarComponment from "@/app/components/NavBarComponent";
+import FooterComponent from "@/app/components/FooterComponent";
 
 export default function Home() {
     return (
         <>
             <header>
-                <NavBar currentPage={0}/>
+                <NavBarComponment currentPage={0}/>
             </header>
             <main>
 
             </main>
             <footer>
-                <Footer />
+                <FooterComponent />
             </footer>
         </>
     );
