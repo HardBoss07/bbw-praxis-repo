@@ -9,8 +9,7 @@ interface InputComponentProps {
 }
 
 export default function InputComponent({type, placeholder, required, value, onChange}: InputComponentProps) {
-    const baseStyle = "p-3 border-2 border-gray-300 rounded-md text-lg transition focus:border-blue-500 focus:ring-4 focus:ring-blue-300";
-
+    const baseStyle ="p-3 border-2 border-gray-300 rounded-md text-base transition focus:border-blue-500 focus:ring-3 focus:ring-blue-300 outline-none";
     if (type === "textarea") {
         return (
             <textarea

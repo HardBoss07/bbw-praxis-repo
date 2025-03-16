@@ -9,7 +9,7 @@ export default function ButtonComponent({type, label, onClick}: ButtonComponentP
       <button
         type={type}
         onClick={onClick}
-        className="px-4 py-2 bg-blue-500 text-white text-lg rounded-md transition duration-300 hover:bg-blue-600 focus:ring-4 focus:ring-blue-300"
+        className="bg-[#1E90FF] text-white py-4 px-8 rounded-md text-base font-bold cursor-pointer transition duration-300 ease-in-out hover:bg-[#1277DD] hover:scale-105"
       >
           {label}
       </button>
