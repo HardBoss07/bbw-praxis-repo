@@ -16,21 +16,6 @@ main {
     margin: 0 auto;
 }
 
-/* Header */
-header {
-    background: #FF6B6B;
-    color: white;
-    padding: 1rem 1.5rem;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
-}
-
-/* Highlights Section */
-.highlights h2 {
-    padding: 1.5rem;
-    text-align: center;
-    color: #FF6B6B;
-}
-
 /* Grid Layouts */
 .highlight-grid,
 .animal-grid,
