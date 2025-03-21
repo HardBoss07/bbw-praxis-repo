@@ -5,9 +5,10 @@ export default function VisitUsComponent() {
             <article>
                 <h3 className="text-xl font-semibold mb-2">Location</h3>
                 <address className="not-italic text-gray-700 leading-relaxed">
-                    123 Magic Lane<br />
-                    Fantasyland, FL 12345<br />
-                    Coordinates: 43.2345° N, 12.3456° W
+                    Pionierstrasse 28<br/>
+                    Winterthur, 8400<br/>
+                    Switzerland<br/>
+                    Coordinates: 47°29'53.3"N, 8°43'11.1"E
                 </address>
             </article>
         </div>

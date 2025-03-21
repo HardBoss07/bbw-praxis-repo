@@ -7,7 +7,7 @@ export default function NavBarComponment({ currentPage }: NavBarProps) {
 
     return (
         <div className="bg-[#FF6B6B] p-7 pb-1.5 shadow-md">
-            <h1 className="text-4xl font-bold text-white">MyLittleZoo</h1>
+            <h1 className="text-4xl font-bold text-white">BBW Reptile House</h1>
             <nav>
                 <ul className="list-none p-0 my-4 flex gap-6">
                     {navItems.map((item, index) => (

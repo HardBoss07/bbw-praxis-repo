@@ -7,9 +7,9 @@ interface CardComponentProps {
 
 export default function ZooHighlightsCardComponent() {
     const highlightData = [
-        {title: "Mythical Creatures", text: "From majestic unicorns to fiery dragons, our mythical creatures will transport you to a world of fantasy."},
-        {title: "Rare Animals", text: "Discover rare and endangered species, each with a unique story and a dedicated conservation program."},
-        {title: "Interactive Exhibits", text: "Engage with our animals through interactive exhibits and educational programs designed for all ages."}
+        {title: "Diverse Reptile Collection", text: "Explore an incredible range of reptiles, from vibrant chameleons to powerful boas, all under one roof."},
+        {title: "Naturalistic Habitats", text: "Our carefully designed enclosures replicate natural environments, ensuring our reptiles thrive and guests get an authentic experience."},
+        {title: "Family-Friendly Fun", text: "With interactive displays, educational info, and close-up encounters, there’s something to spark curiosity in every age group."}
     ];
 
     return (

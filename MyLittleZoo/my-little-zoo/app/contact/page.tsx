@@ -6,13 +6,13 @@ import HoursComponent from "@/app/components/HoursComponent";
 
 export default function Home() {
     const hoursData = [
-        { day: "Monday", hours: "8AM - 8PM" },
+        { day: "Monday", hours: "Closed" },
         { day: "Tuesday", hours: "9AM - 9PM" },
         { day: "Wednesday", hours: "10AM - 6PM" },
         { day: "Thursday", hours: "8AM - 8PM" },
         { day: "Friday", hours: "9AM - 9PM" },
         { day: "Saturday", hours: "10AM - 10PM" },
-        { day: "Sunday", hours: "Closed" },
+        { day: "Sunday", hours: "10AM - 8PM" },
     ];
 
     return (
@@ -22,7 +22,7 @@ export default function Home() {
             </header>
             <main>
                 <VisitUsComponent />
-                <HoursComponent dailyHours={hoursData} note="Extended Hours during full moons" />
+                <HoursComponent dailyHours={hoursData} note="For specialized guides and tours hours can be adjusted!" />
                 <ContactFormComponent />
             </main>
             <footer>

@@ -11,8 +11,8 @@ export default function Home() {
             </header>
             <main>
                 <section className="mb-5">
-                    <h2 className="text-3xl font-bold mb-1.5">Welcome to MyLittleZoo</h2>
-                    <p>Step into a world where magic and nature come together. MyLittleZoo is home to a unique collection of mythical creatures and rare animals, all living in carefully designed habitats. Whether you're here to learn, explore, or simply enjoy the wonder, we promise an unforgettable experience.</p>
+                    <h2 className="text-3xl font-bold mb-1.5">Welcome to BBW Reptile House</h2>
+                    <p>Welcome to the Reptile House – a vibrant world of scales, slithers, and surprises! Step inside and discover an incredible variety of reptiles from around the globe, from majestic snakes and ancient tortoises to colorful lizards and elusive crocodilians. Whether you're a curious explorer or a lifelong reptile fan, our exhibits offer an up-close look at these fascinating creatures in habitats designed to mimic their natural environments. Come face to face with nature’s most unique survivors!</p>
                 </section>
                 <section className="mb-5">
                     <h2 className="text-3xl font-bold mb-2">What makes us special</h2>
